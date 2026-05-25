@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T17:33:51.01Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -14,19 +14,19 @@ public abstract class User
 
     public Address Address { get; protected set; }
 
-    public DateOnly CreatedAt { get; protected set; } = DateOnly.FromDateTime(DateTime.UtcNow);
+    public DateTime CreatedAt { get; protected set; } = DateTime.UtcNow;
 
     protected User() { }
     protected User(string name, CPF cpf, Email email, string passwordHash, Phone phone, DateOnly birthDate,Address address)
     {
-        if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException(nameof(name), "Nome não pode ser nulo.");
-        if (cpf == null)  throw new ArgumentException(nameof(cpf), "CPF não pode ser nulo.");
-        if (email == null) throw new ArgumentException(nameof(email), "Email não pode ser nulo.");
-        if (phone == null) throw new ArgumentException(nameof(phone), "Telefone não pode ser nulo");
-        if (string.IsNullOrWhiteSpace(passwordHash)) throw new ArgumentException(nameof(passwordHash), "Senha não pode estar vazia.");
-        if (birthDate == default) throw new ArgumentException(nameof(birthDate), "Data de nascimento é obrigatória.");
-        if (birthDate > DateOnly.FromDateTime(DateTime.Now)) throw new ArgumentException(nameof(birthDate), "Data de nascimento não pode ser no futuro.");
-        if (address == null) throw new ArgumentNullException(nameof(address), "Endereço não pode ser nulo.");
+        if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Nome não pode ser nulo.", nameof(name));
+        if (cpf == null)  throw new ArgumentException("CPF não pode ser nulo.", nameof(cpf));
+        if (email == null) throw new ArgumentException("Email não pode ser nulo.", nameof(email));
+        if (phone == null) throw new ArgumentException("Telefone não pode ser nulo", nameof(phone));
+        if (string.IsNullOrWhiteSpace(passwordHash)) throw new ArgumentException("Senha não pode estar vazia.", nameof(passwordHash));
+        if (birthDate == default) throw new ArgumentException("Data de nascimento é obrigatória.", nameof(birthDate));
+        if (birthDate > DateOnly.FromDateTime(DateTime.Now)) throw new ArgumentException("Data de nascimento não pode ser no futuro.", nameof(birthDate));
+        if (address == null) throw new ArgumentNullException("Endereço não pode ser nulo.", nameof(address));
 
         Name = name;
         CPF = cpf;
@@ -37,14 +37,14 @@ public abstract class User
         BirthDate = birthDate;
     }
     
-    public void UpdateUser(string name, Email email, Phone phone, DateOnly birthDate, Address address)
+    public void Update(string name, Email email, Phone phone, DateOnly birthDate, Address address)
     {
-        if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException(nameof(name), "Nome não pode ser nulo.");
-        if (email == null) throw new ArgumentException(nameof(email), "Email não pode ser nulo.");
-        if (phone == null) throw new ArgumentException(nameof(phone), "Telefone não pode estar vazio.");
-        if (birthDate == default) throw new ArgumentException(nameof(birthDate), "Data de nascimento é obrigatória.");
-        if (birthDate > DateOnly.FromDateTime(DateTime.Now)) throw new ArgumentException(nameof(birthDate), "Data de nascimento não pode ser no futuro.");
-        if (address == null) throw new ArgumentNullException(nameof(address), "Endereço não pode ser nulo.");
+        if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Nome não pode ser nulo.", nameof(name));
+        if (email == null) throw new ArgumentException("Email não pode ser nulo.", nameof(email));
+        if (phone == null) throw new ArgumentException("Telefone não pode estar vazio.", nameof(phone));
+        if (birthDate == default) throw new ArgumentException("Data de nascimento é obrigatória.", nameof(birthDate));
+        if (birthDate > DateOnly.FromDateTime(DateTime.Now)) throw new ArgumentException("Data de nascimento não pode ser no futuro.", nameof(birthDate));
+        if (address == null) throw new ArgumentNullException("Endereço não pode ser nulo.", nameof(address));
         Name = name;
         Email = email;
         Phone = phone;

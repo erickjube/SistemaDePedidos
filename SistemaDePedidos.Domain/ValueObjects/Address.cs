@@ -4,10 +4,10 @@ namespace SistemaDePedidos.Domain.ValueObjects;
 
 public class Address
 {
-    public string Street { get; set; }
-    public string City { get; set; }
-    public string State { get; set; }
-    public string CEP { get; set; }
+    public string Street { get; }
+    public string City { get; }
+    public string State { get; }
+    public string CEP { get; }
 
     public Address(string street, string city, string state, string cep)
     {
