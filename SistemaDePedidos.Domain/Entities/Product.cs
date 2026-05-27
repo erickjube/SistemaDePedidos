@@ -10,7 +10,7 @@ public class Product
     public Category Category { get; private set; } = null!;
 
     public int SellerId { get; private set; }
-    public Seller Seller { get; private set; } = null!;
+    public SellerProfile Seller { get; private set; } = null!;
 
     public Product() { }
 

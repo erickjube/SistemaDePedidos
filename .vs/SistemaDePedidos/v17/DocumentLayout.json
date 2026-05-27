@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.infrastructure\\configurations\\clientprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|solutionrelative:sistemadepedidos.infrastructure\\configurations\\clientprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.infrastructure\\configurations\\sellerprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|solutionrelative:sistemadepedidos.infrastructure\\configurations\\sellerprofileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\clientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\clientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\sellerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\sellerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellerProfileConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Configurations\\SellerProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Infrastructure\\Configurations\\SellerProfileConfiguration.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Configurations\\SellerProfileConfiguration.cs",
+              "RelativeToolTip": "SistemaDePedidos.Infrastructure\\Configurations\\SellerProfileConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T18:14:02.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientProfileConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Configurations\\ClientProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Infrastructure\\Configurations\\ClientProfileConfiguration.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Configurations\\ClientProfileConfiguration.cs",
+              "RelativeToolTip": "SistemaDePedidos.Infrastructure\\Configurations\\ClientProfileConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T18:13:45.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T18:05:19.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SellerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\SellerProfile.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\SellerProfile.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\SellerProfile.cs",
+              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\SellerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:54:28.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\ClientProfile.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\ClientProfile.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\ClientProfile.cs",
+              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\ClientProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T17:53:06.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

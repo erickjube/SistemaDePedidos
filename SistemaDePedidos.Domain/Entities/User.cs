@@ -2,22 +2,26 @@
 
 namespace SistemaDePedidos.Domain.Entities;
 
-public abstract class User
+public class User
 {
-    public int Id { get; protected set; }
-    public string Name { get; protected set; } = string.Empty;
-    public CPF CPF { get; protected set; } 
-    public Email Email { get; protected set; }
-    public Phone Phone { get; protected set; }
-    public string PasswordHash { get; protected set; } = string.Empty;
-    public DateOnly BirthDate { get; protected set; } 
+    public int Id { get; private set; }
+    public string Name { get; private set; } = string.Empty;
+    public CPF CPF { get; private set; } 
+    public Email Email { get; private set; }
+    public Phone Phone { get; private set; }
+    public string PasswordHash { get; private set; } = string.Empty;
+    public DateOnly BirthDate { get; private set; } 
 
-    public Address Address { get; protected set; }
+    public Address Address { get; private set; }
 
-    public DateTime CreatedAt { get; protected set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
 
-    protected User() { }
-    protected User(string name, CPF cpf, Email email, string passwordHash, Phone phone, DateOnly birthDate,Address address)
+    public ClientProfile? ClientProfile { get; private set; }
+
+    public SellerProfile? SellerProfile { get; private set; }
+
+    private User() { }
+    private User(string name, CPF cpf, Email email, string passwordHash, Phone phone, DateOnly birthDate,Address address)
     {
         if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Nome não pode ser nulo.", nameof(name));
         if (cpf == null)  throw new ArgumentException("CPF não pode ser nulo.", nameof(cpf));

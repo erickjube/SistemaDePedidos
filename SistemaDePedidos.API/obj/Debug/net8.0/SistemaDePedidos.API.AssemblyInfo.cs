@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDePedidos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+124a379278d00111810ca923b1faa594f3e5ad31")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDePedidos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDePedidos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

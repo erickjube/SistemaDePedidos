@@ -5,7 +5,7 @@ public class Order
     public int Id { get; private set; }
 
     public int ClientId { get; private set; }
-    public Client Client { get; private set; } = null!;
+    public ClientProfile Client { get; private set; } = null!;
 
     public ICollection<OrderItem> Items { get; private set; } = new List<OrderItem>();
 
