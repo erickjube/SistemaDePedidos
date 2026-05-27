@@ -8,7 +8,8 @@ public class ClientProfile
     public int UserId { get; private set; }
     public User User { get; private set; }
 
-    public Cart? Cart { get; private set; }
+    public Cart Cart { get; private set; }
+
     public ICollection<Order> Orders { get; private set; } = new List<Order>();
 
     public ClientProfile() { }
