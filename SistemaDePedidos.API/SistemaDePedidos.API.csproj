@@ -24,4 +24,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaDePedidos.Application\SistemaDePedidos.Application.csproj" />
+    <ProjectReference Include="..\SistemaDePedidos.Infrastructure\SistemaDePedidos.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

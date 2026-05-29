@@ -1578,6 +1578,51 @@
             "rid": "win"
           }
         }
+      },
+      "SistemaDePedidos.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.27",
+          "SistemaDePedidos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaDePedidos.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaDePedidos.Application.dll": {}
+        }
+      },
+      "SistemaDePedidos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.27"
+        },
+        "compile": {
+          "bin/placeholder/SistemaDePedidos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaDePedidos.Domain.dll": {}
+        }
+      },
+      "SistemaDePedidos.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.27",
+          "SistemaDePedidos.Application": "1.0.0",
+          "SistemaDePedidos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaDePedidos.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaDePedidos.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -4425,6 +4470,21 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SistemaDePedidos.Application/1.0.0": {
+      "type": "project",
+      "path": "../SistemaDePedidos.Application/SistemaDePedidos.Application.csproj",
+      "msbuildProject": "../SistemaDePedidos.Application/SistemaDePedidos.Application.csproj"
+    },
+    "SistemaDePedidos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SistemaDePedidos.Domain/SistemaDePedidos.Domain.csproj",
+      "msbuildProject": "../SistemaDePedidos.Domain/SistemaDePedidos.Domain.csproj"
+    },
+    "SistemaDePedidos.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SistemaDePedidos.Infrastructure/SistemaDePedidos.Infrastructure.csproj",
+      "msbuildProject": "../SistemaDePedidos.Infrastructure/SistemaDePedidos.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4433,6 +4493,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.27",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.27",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.27",
+      "SistemaDePedidos.Application >= 1.0.0",
+      "SistemaDePedidos.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -4469,7 +4531,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj": {
+              "projectPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj"
+            },
+            "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

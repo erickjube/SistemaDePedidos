@@ -1492,6 +1492,21 @@
           }
         }
       },
+      "SistemaDePedidos.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.27",
+          "SistemaDePedidos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SistemaDePedidos.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SistemaDePedidos.Application.dll": {}
+        }
+      },
       "SistemaDePedidos.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4005,6 +4020,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "SistemaDePedidos.Application/1.0.0": {
+      "type": "project",
+      "path": "../SistemaDePedidos.Application/SistemaDePedidos.Application.csproj",
+      "msbuildProject": "../SistemaDePedidos.Application/SistemaDePedidos.Application.csproj"
+    },
     "SistemaDePedidos.Domain/1.0.0": {
       "type": "project",
       "path": "../SistemaDePedidos.Domain/SistemaDePedidos.Domain.csproj",
@@ -4017,6 +4037,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.27",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.27",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.27",
+      "SistemaDePedidos.Application >= 1.0.0",
       "SistemaDePedidos.Domain >= 1.0.0"
     ]
   },
@@ -4054,6 +4075,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj": {
+              "projectPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj"
+            },
             "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj": {
               "projectPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj"
             }

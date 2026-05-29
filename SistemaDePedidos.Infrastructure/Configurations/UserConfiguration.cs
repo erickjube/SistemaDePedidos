@@ -20,9 +20,9 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
                 .HasColumnName("CPF")
                 .IsRequired()
                 .HasMaxLength(11);
+            cpf.HasIndex(c => c.Value).IsUnique();
 
         });
-        builder.HasIndex("CPF").IsUnique();
 
         builder.OwnsOne(u => u.Email, email =>
         {
@@ -30,8 +30,8 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
                 .HasColumnName("Email")
                 .IsRequired()
                 .HasMaxLength(255);
+            email.HasIndex(e => e.Value).IsUnique();
         });
-        builder.HasIndex("Email").IsUnique();
 
         builder.OwnsOne(u => u.Phone, phone =>
         {

@@ -9,7 +9,7 @@ public class Order
 
     public ICollection<OrderItem> Items { get; private set; } = new List<OrderItem>();
 
-    public decimal TotalAmount => Items.Sum(i => i.Subtotal);   
+    public decimal TotalAmount { get; private set; } 
     public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
 
     public Order() { }
