@@ -23,4 +23,8 @@
     <ProjectReference Include="..\SistemaDePedidos.Domain\SistemaDePedidos.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Interfaces\" />
+  </ItemGroup>
+
 </Project>

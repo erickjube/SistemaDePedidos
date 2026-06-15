@@ -69,6 +69,13 @@ public class Product
 
     public void TurnInactive()
     {
+        if (Status == ProductStatus.Inactive) throw new ArgumentException("Produto já esta desativado.", nameof(Status)); 
         Status = ProductStatus.Inactive;
+    }
+
+    public void TurnActive()
+    {
+        if (Status == ProductStatus.Active) throw new ArgumentException("Produto já esta ativado.", nameof(Status));
+        Status = ProductStatus.Active;
     }
 }
