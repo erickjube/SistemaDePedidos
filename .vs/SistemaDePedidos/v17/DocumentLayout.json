@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|solutionrelative:sistemadepedidos.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3025A46D-217B-2B15-579F-F3476816BA7A}|SistemaDePedidos.Infrastructure\\SistemaDePedidos.Infrastructure.csproj|solutionrelative:sistemadepedidos.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{202C6C55-8959-416D-A6FD-368B5E321D7B}|SistemaDePedidos.Domain\\SistemaDePedidos.Domain.csproj|solutionrelative:sistemadepedidos.domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30D4A3CD-738A-4C63-B2A6-EDBCC7605B25}|SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj|c:\\users\\erick jube\\onedrive\\documents\\00faculdade\\estudos\\c#\\0 - projetos\\sistemadepedidos\\sistemadepedidos.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30D4A3CD-738A-4C63-B2A6-EDBCC7605B25}|SistemaDePedidos.Application\\SistemaDePedidos.Application.csproj|solutionrelative:sistemadepedidos.application\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "SistemaDePedidos.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "SistemaDePedidos.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "SistemaDePedidos.Application\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T18:22:56.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "SistemaDePedidos.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T18:19:18.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T19:08:53.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\ENUMs\\ProductStatus.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\ENUMs\\ProductStatus.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\ENUMs\\ProductStatus.cs",
-              "RelativeToolTip": "SistemaDePedidos.Domain\\ENUMs\\ProductStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T18:48:39.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "SistemaDePedidos.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Erick Jube\\OneDrive\\Documents\\00Faculdade\\Estudos\\C#\\0 - Projetos\\SistemaDePedidos\\SistemaDePedidos.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "SistemaDePedidos.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-29T17:59:49.659Z",
+              "WhenOpened": "2026-06-15T18:39:17.145Z",
               "EditorCaption": ""
             }
           ]
